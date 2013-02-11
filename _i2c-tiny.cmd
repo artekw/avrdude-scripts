@@ -1,0 +1,1 @@
+avrdude.exe -P COM8 -c buspirate -p attiny45 -U lfuse:w:0xdf:m -U flash:w:firmware.hex -U hfuse:w:0x5f:m
